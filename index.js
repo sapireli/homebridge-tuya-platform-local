@@ -54,13 +54,17 @@ const CLASS_DEF = {
 
 let Characteristic, PlatformAccessory, Service, Categories, AdaptiveLightingController, UUID;
 
-module.exports = function(homebridge) {
+module.exports = function(api) {
     ({
         platformAccessory: PlatformAccessory,
         hap: {Characteristic, Service, AdaptiveLightingController, Accessory: {Categories}, uuid: UUID}
-    } = homebridge);
+    } = api);
 
-    homebridge.registerPlatform(PLUGIN_NAME, PLATFORM_NAME, TuyaPlatformLocal, true);
+    if (api.registerPlatform.length > 2) {
+        api.registerPlatform(PLUGIN_NAME, PLATFORM_NAME, TuyaPlatformLocal, true);
+    } else {
+        api.registerPlatform(PLATFORM_NAME, TuyaPlatformLocal);
+    }
 };
 
 class TuyaPlatformLocal {
