@@ -21,6 +21,8 @@ I do not have a lot of time to maintain this repo either but will do my best to 
 
 Control your supported Tuya accessories locally in HomeKit
 
+This plugin is compatible with Homebridge v1.3 and v2.0.
+
 - [Supported Device Types](#supported-device-types)
 - [Installation Instructions](#installation-instructions)
 - [Configuration](#configuration)
