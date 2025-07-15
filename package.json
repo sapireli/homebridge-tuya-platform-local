@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-tuya-platform-local",
+  "name": "homebridge-tuya-platform-local2",
   "displayName": "Homebridge Tuya Local",
   "version": "3.0.3",
   "description": "🏠 Unofficial Homebridge plugin enabling local control of Tuya smart devices",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hmenzagh/homebridge-tuya-platform-local.git"
+    "url": "git+https://github.com/sapireli/homebridge-tuya-platform-local2.git"
   },
   "author": "Rayan Khan & hmenzagh & Eliran Sapir",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hmenzagh/homebridge-tuya-platform-local/issues"
+    "url": "https://github.com/sapireli/homebridge-tuya-platform-local2/issues"
   },
-  "homepage": "https://github.com/hmenzagh/homebridge-tuya-platform-local#readme",
+  "homepage": "https://github.com/sapireli/homebridge-tuya-platform-local2#readme",
   "dependencies": {
     "async": "^3.2.5",
     "commander": "^3.0.2",
@@ -38,10 +38,7 @@
     "tuya"
   ],
   "engines": {
-    codex/update-plugin-for-homebridge-2.0-compatibility
     "homebridge": ">=1.3.0",
-    "node": ">=14.17.0"
-    "homebridge": ">=0.4.0",
     "node": ">=18.0.0"
   }
 }
