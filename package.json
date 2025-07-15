@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/hmenzagh/homebridge-tuya-platform-local.git"
   },
-  "author": "Rayan Khan & hmenzagh",
+  "author": "Rayan Khan & hmenzagh & Eliran Sapir",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hmenzagh/homebridge-tuya-platform-local/issues"
